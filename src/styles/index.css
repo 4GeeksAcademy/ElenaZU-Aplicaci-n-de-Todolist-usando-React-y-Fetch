@@ -10,3 +10,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.input-icon{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  }
+  
+  .icon {
+    position: absolute;
+    right: 2%;
+    top: 33%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+  }
+.footer{
+  width: 50%;
+  margin-left: 21%;
+}
+
